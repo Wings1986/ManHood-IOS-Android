@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManHood</string>
+    <string name="choose_your_gender">CHOOSE YOUR GENDER</string>
+    <string name="privacy_policy">By continuing you agree to the Terms of Use and you acknowledge that you have read the
+        Privacy Policy
+    </string>
+    <string name="enter">ENTER</string>
+    <string name="world">World</string>
+    <string name="area">Area</string>
+    <string name="hood">Hood</string>
+    <string name="your_result">Your Results</string>
+    <string name="manhood">ManHood</string>
+    <string name="certificate_save_to_photo_library">Save to Photo Library</string>
+    <string name="empty_row_value">---</string>
+    <string name="length">LENGTH:</string>
+    <string name="thickness">THICKNESS:</string>
+    <string name="thickest_at">THICKEST AT:</string>
+    <string name="curvature">CURVATURE:</string>
+    <string name="date_of_issue">DATE OF ISSUE:</string>
+    <string name="device">DEVICE:</string>
+    <string name="manhood__">ManHood --</string>
+    <string name="how_to_guide">HOW TO GUIDE</string>
+    <string name="step_1">STEP 1</string>
+    <string name="step_1_description">Sit in front of a mirror</string>
+    <string name="step_2">STEP 2</string>
+    <string name="step_2_description">Wear a white/blue/green/black T-shirt</string>
+    <string name="step_3">STEP 3</string>
+    <string name="step_3_description">Take off the cover</string>
+    <string name="step_4">STEP 4</string>
+    <string name="step_4_description">Press the phone to the bone</string>
+    <string name="step_5">STEP 5</string>
+    <string name="step_5_description">Make sure the edges of the phone and your manhood are as visible as possible
+    </string>
+    <string name="ready_male_title">Ready to Go</string>
+    <string name="ready_female_title">That’s how to do it</string>
+    <string name="ready_male_description">I got it! Time to measure!</string>
+    <string name="ready_female_description">This is the way for guys to digitally measure themselves</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="hide_personal_data">Hide Personal Data</string>
+    <string name="units">Units</string>
+    <string name="join_the_inner_circle">Join the Inner Circle</string>
+    <string name="give_feedback">Give Feedback</string>
+    <string name="tell_a_friend">Tell a friend</string>
+    <string name="help">Help</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_caps">PRIVACY POLICY</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="terms_of_use_caps">TERMS OF USE</string>
+
+    <string name="privacy_policy_text" formatted="false">This Privacy Policy explains the information that The ManHood Team (\&quot;ManHood,\&quot;
+        \&quot;we,\&quot; or \&quot;us\&quot;) collect about users of the \&quot;ManHood\&quot; mobile application and
+        related
+        services, how we use that
+        information, and with whom we share it. If we make any material changes to our privacy practices, we will post a
+        revised Privacy Policy on this page. If you have any questions, please contact us by sending an email to
+        help@manhoodapp.com.\n
+
+        \n<b>We strive to not collect any personally identifiable information</b>\n
+
+        \n
+        <b>Information we collect automatically:</b>
+        When you use ManHood, we automatically collect and store information
+        about your mobile device. This information includes:\n
+        \t<b>•</b>\t Your installation of ManHood. We only register the device and not your personal data.\n
+        \t<b>•</b>\t Your mobile device’s geographic location while the app is actively running\n
+        \t<b>•</b>\t Technical information about your mobile device (such as type of device and operating system)\n
+        \t<b>•</b>\t How long you are using ManHood and which services and features you used\n
+
+        \n
+        <b>Information you choose to provide:</b>
+        In order to use all functions of ManHood, you can be asked to make
+        measurements using the app. For development purposes we may store the pictures used to extract these
+        measurements. We strive to have the highest security and ethical standard and at all time guard and facilitate
+        these material, meaning that material and install information such as location is kept separated. In order to
+        use ManHood you are asked to inform us about your sex. Other information might be required and might be public
+        to others where you are represented in an anonymous group.
+        <b>We do not store information like:</b>
+        your name, address,
+        email address, or phone number.
+
+        \n
+        <b>How we use your information:</b>
+        We use your information to provide and improve our services. Your information
+        will be public for other users in an anonymous group based on geographical location or other data provided by
+        you.\n
+
+        \n
+        <b>Use of your information by others:</b>
+        We may share user information with other companies for various reasons as
+        described below. What information we make available to other companies depends on the nature of our relationship
+        with them. We generally require these other companies to keep users\&apos; information confidential.\n
+        <b>Science and Research institutions:</b>
+        We may share all types of information for research purposes.\n
+        <b>Advertisers:</b>
+        We may allow advertisers and advertising networks to collect information about your mobile device,
+        activities, and geographical location to include targeted ads to you.\n
+        <b>Analytics Companies:</b>
+        We may allow analytics companies to use tracking technologies to collect information about
+        our users\&apos; devices and online activities. These companies analyze this information to help us understand
+        how our
+        service is being used.\n
+        <b>Aggregated Information:</b>
+        We may publicly disclose aggregated information about our users, such as making info
+        graphics about average measurements per area in a city.\n
+        <b>Legal matters:</b>
+        We may disclose any information: in response to a legal request, such as a subpoena, court order,
+        or government demand; to investigate or report illegal activity; or to enforce our rights or defend claims. We
+        may also transfer your information to another company in connection with a corporate restructuring, such as a
+        sale or merger.\n
+
+        \n
+        <b>Children\&apos;s privacy:</b>
+        We do not allow persons under 18 to use this service, and we do not knowingly
+        collect any
+        personally identifiable information from persons under the age of 13.\n
+
+        \n
+        <b>Information from users outside the United States</b>
+        If you\&apos;re outside the United States, your information
+        will
+        be
+        sent to and stored in the United States, where our servers are located. By using ManHood, you agree to the
+        information collection, use, and sharing practices described in this Privacy Policy.\n
+    </string>
+    <string name="terms_of_use_text">
+        <b>PLEASE READ THIS DOCUMENT CAREFULLY</b>
+        \n
+        The ManHood Team (\&quot;ManHood,\&quot; \&quot;we,\&quot; or \&quot;us\&quot;)
+        operates the ManHood mobile app and related services (\&quot;ManHood\&quot;). By using ManHood in any way, you
+        accept these Terms of Service (\&quot;Agreement\&quot;). If you do not wish to be bound by this Agreement, do
+        not use ManHood.
+        \n
+
+        \n
+        <b>Contents</b>\n
+        \t1. Who May Use ManHood
+        \n
+        \t2. License to Use ManHood
+        \n
+        \t3. Privacy
+        \n
+        \t5. Term and Termination; Account Deletion
+        \n
+        \t6. Disclaimers
+        \n
+        \t7. Code of Conduct; Prohibited Activities
+        \n
+
+        \n
+        <b>Who May Use ManHood</b>
+        You must be at least 18 years old to use ManHood. Use is void where prohibited. By using
+        ManHood, you represent and warrant that you have the right, authority and capacity to enter into this Agreement
+        and to abide by all of the terms and conditions of this Agreement.
+        \n
+
+        \n
+        <b>License to Use ManHood</b>\n
+        ManHood grants you a limited, non-exclusive license to access and use ManHood for your
+        own personal, non-commercial purposes. This license is personal to you and may not be assigned or sublicensed to
+        anyone else.
+        \n
+        Except as expressly permitted by ManHood in writing, you will not reproduce, redistribute, sell, create
+        derivative works from, decompile, reverse engineer, or disassemble ManHood. Nor will you take any measures to
+        interfere with or damage ManHood. All rights not expressly granted by The ManHood Team are reserved.
+        \n
+
+        \n
+        <b>Privacy</b>
+        Your privacy rights are set forth in our Privacy Policy (Privacy Policy), which forms a part of this
+        Agreement. We strive to not collect any personally identifiable information. Please review the Privacy Policy to
+        learn about:
+        \n
+        \t◦ What information we may collect about you
+        \n
+        \t◦ What we use that information for
+        \n
+        \t◦ What third-party information, if any, you are agreeing to share by using ManHood; and
+        \n
+        \t◦ With whom we share that information
+        \n
+
+        \n
+        <b>Term and Termination;</b>
+        Account Deletion This Agreement begins on the date you first use ManHood and continues
+        until terminated in accordance with the provisions hereof.
+        \n
+        The ManHood Team may suspend, disable, or delete your account (or any part thereof) if we determines that you have
+        violated any provision of this Agreement or that your conduct or content would tend to damage ManHood’s
+        reputation or goodwill.
+        \n
+        Upon termination, all licenses granted by The ManHood Team will terminate. In the event of account deletion for
+        any reason, content that you submitted may no longer be available. The ManHood Team shall not be responsible for
+        the loss of such content.
+        \n
+
+        \n
+        <b>Disclaimers.</b>
+        The ManHood Team provides ManHood on an \&quot;as is\&quot; and \&quot;as available\&quot; basis. You therefore
+        use ManHood at your own risk. The ManHood Team expressly disclaims any and all warranties of any kind, whether
+        express or
+        implied, including, but not limited to the implied warranties of merchantability, medical, fitness for a
+        particular purpose, non-infringement, and any other warranty that might arise under any law.
+        \n
+
+        \n
+        <b>Code of Conduct.</b>
+        \n\tBy using ManHood you acknowledge to follow the measurement instructions for accurate measurements.
+        \n
+        \tYou will not try to mislead, fool or exploit the measurement technology
+        \n
+        \tYou will not use any robot, spider, site search/retrieval application, or other manual or automatic device or
+        process to retrieve, index, “data mine”, or in any way reproduce or circumvent the navigational structure or
+        presentation of the Service or its contents.
+        \n
+        \tYou will not interfere with or disrupt the services or the site or the servers or networks connected to the
+        services or the site.
+        \n
+    </string>
+    <string name="done">Done</string>
+    <string name="fragment_support_header_text">Have any questions or comments?\nPlease help us improve ManHood</string>
+    <string name="give_feedback_caps">GIVE FEEDBACK</string>
+    <string name="support_email_address">hello@manhoodapp.com</string>
+    <string name="send_a_support_email">Send a support email</string>
+    <string name="fragment_help_header_text">Find help to use ManHood</string>
+    <string name="measurement_taking_guide">Measurement taking guide</string>
+    <string name="faq">Frequently asked questions</string>
+    <string name="faqs_caps">FAQS</string>
+    <string name="faq_text">
+        <b>Who can see me?</b>
+        \n
+        No one can distinguish you from a group of people. You are always anonymous in the crowd.
+        \n\n
+        <b>What do the bars mean?</b>
+        \n
+        It is the distribution of the filtered location you have chosen: the World, the Area (the 200 closest in
+        distance), or the Hood (the 20 closest in distance to where you are). Higher bars means more measurements with
+        that measurement. It is called a histogram.
+        \n\n
+        <b>I get \&apos;Length\&apos; and \&apos;Thickness\&apos; but what is \&apos;Thickest at\&apos;?</b>
+        \n
+        \&apos;Thickest at\&apos; indicates the thickest point along the length. The base is 0, the tip is 1, and the
+        middle is 1 2.
+        Btw, thickness and girth are just synonyms.
+        \n\n
+        <b>My length is longer than my phone; will it work?</b>
+        \n
+        Yes. We look at the skin not the phone, which is why you need to be wearing a T-shirt.
+        \n\n
+        <b>Mine is quite bent, so the length will be shorter, right?</b>
+        \n
+        No. We are measuring in 3D by combining both the front and the side. That is why length is measured in three
+        dimensions and also angle and girth.
+        \n\n
+        <b>Should it be hard when I measure?</b>
+        \n
+        You want to measure the maximum stats, right? Besides what\&apos;s the point in measuring the shape, like
+        curvature,
+        for something soft?
+        \n\n
+        <b>Do I really need a mirror to take my measurements?</b>
+        \n
+        Yes, it is the core of the technology.
+        \n\n
+        <b>How accurate are the measurements?</b>
+        \n
+        Following the guide gives high accuracy. We do some statistical approximation of thickness (girth) so please
+        send us feedback if you think the algorithms can be improved. Remember, the less you cover your manhood with
+        your fingers the more of the shaft can be measured.
+        \n\n
+
+        <b>What more can I do to make better measurements?</b>
+        \n
+        - Have good, even lighting
+        \n
+        - Try not to have bright spots on the skin
+        nor shadows
+        \n
+        - Clean the mirror
+        \n
+        - Hold as little of you manhood as possible
+        to show the most of the contour
+        \n
+        - Avoid contact with your hands and your
+        manhood
+        \n
+        - Use one or two fingers
+        \n\n
+        <b>How can I communicate with the other users?</b>
+        \n
+        You are anonymous as are all other users, but take a look around you, you can probably spot the guys and girls
+        in the cafe library bar club that have just checked you out.
+        \n\n
+
+        <b>I can\&apos;t see myself the \&apos;Your Result\&apos; button is gone</b>
+        \n
+        You have switched on \&quot;Hide Personal Data\&quot; in the settings. This is a great feature if you want to
+        show
+        the app
+        to friends but not brag about your personal stats.
+        \n\n
+
+        <b>How do I cancel my subscription?</b>
+        \n
+        It\&apos;s cool to see the Hood and be in the Inner Circle, and you can always start seeing them again by
+        joining
+        the
+        Inner Circle again. When you cancel your subscription is not renewed from next week. 
+        Visit Google Wallet. Along the left side of your screen, select More >
+		Subscriptions. Select Cancel subscription.
+        \n\n
+
+        <b>What information is registered?</b>
+        \n
+        We strive to not store any personally identifiable material.
+        When you save the certificate with a username it is only for your photo album. It is never stored anywhere
+        else.
+        \n\n
+
+        <b>This is silly?</b>
+        \n
+        Yes, but what is just for fun for you can actually be a serious thing for someone else. Your data is of great
+        help for others. One of the most popular articles on Wikipedia is \&quot;Human Penis Size\&quot;. It\&apos;s
+        read
+        by tens of
+        thousands of people every day. Use ManHood, even just for the fun of it, and you are helping guys around the
+        world to see what is normal. You are contributing to our mission to uncover every little corner of the world. It
+        may be a small thing for you but together we make a giant leap for ManKind Hood.
+        \n\n
+    </string>
+    <string name="help_caps">HELP</string>
+    <string name="server_link">https://www.shapeapptech1.com</string>
+    <string name="room_for_improvements">Room for improvements</string>
+    <string name="something_wasnt_right">Something wasn\'t right</string>
+    <string name="ok">OK</string>
+    <string name="tips">Tips</string>
+    <string name="camera_caps">CAMERA</string>
+    <string name="ref_shot">REF SHOT</string>
+    <string name="front_shot">FRONT SHOT</string>
+    <string name="side_shot">SIDE SHOT</string>
+    <string name="next">Next</string>
+    <string name="analyze">Analyze</string>
+    <string name="tap_to_take_picture">Tap to take a picture</string>
+    <string name="move_and_size_image_to_fit_size">Move and size image to fit the %s size</string>
+    <string name="ref_shot_info_dialog_title">Example of Reference Picture</string>
+    <string name="front_shot_info_dialog_title">Example of Front Picture</string>
+    <string name="side_shot_info_dialog_title">Example of Side Picture</string>
+    <string name="got_it">Got it!</string>
+    <string name="ref_adjustments_info_dialog_title">Example of Reference Adjustment</string>
+    <string name="front_adjustments_info_dialog_title">Example of Front Adjustment</string>
+    <string name="side_adjustments_info_dialog_title">Example of Side Adjustment</string>
+    
+    
+    <string name="erd_title">Rate this app</string>
+    <string name="erd_message">Hi, take a minute to rate this app and help support to improve more new features. ;)</string>
+    <string name="erd_no_thanks">No, thanks</string>
+    <string name="erd_remind_me_later">Remind me later</string>
+	<string name="erd_rate_now">Rate now</string>
+	
+</resources>

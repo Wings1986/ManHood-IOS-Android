@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/apk/res/com.VVTeam.ManHood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/welcome_bg">
+
+    <com.VVTeam.ManHood.Widget.AutoScaleTextView
+            android:id="@+id/fragment_welcome_auto_scale_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_welcome_choose_text_view_height"
+            android:text="@string/choose_your_gender"
+            android:textSize="@dimen/choose_gender_text_view_size"
+            android:textColor="@android:color/white"
+            tools:minTextSize="@dimen/choose_gender_text_view_size"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+    <RelativeLayout android:id="@+id/fragment_welcome_guy_girl_relative_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/fragment_welcome_auto_scale_text_view"
+                    android:layout_above="@+id/fragment_welcome_bottom_relative_layout"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+        <View android:id="@+id/fragment_welcome_gender_horizontal_divider"
+              android:layout_height="match_parent"
+              android:layout_width="0dp"
+              android:layout_centerInParent="true"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentBottom="true"
+              android:background="@android:color/black"/>
+        <ImageView android:id="@+id/fragment_welcome_guy_image_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toLeftOf="@+id/fragment_welcome_gender_horizontal_divider"
+                   android:src="@drawable/guy_button_drawable"
+                   android:scaleType="fitCenter"
+                   android:adjustViewBounds="true"
+                   android:clickable="true"
+                   android:background="@drawable/clickable_background"/>
+        <ImageView android:id="@+id/fragment_welcome_girl_image_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@+id/fragment_welcome_gender_horizontal_divider"
+                   android:src="@drawable/girl_button_drawable"
+                   android:scaleType="fitCenter"
+                   android:adjustViewBounds="true"
+                   android:clickable="true"
+                   android:background="@drawable/clickable_background"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/fragment_welcome_bottom_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/fragment_welcome_enter_button_relative"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fragment_welcome_enter_button_relative_height"
+                        android:layout_alignParentBottom="true">
+            <Button android:id="@+id/fragment_welcome_enter_button"
+                    android:layout_width="@dimen/fragment_welcome_enter_button_width"
+                    android:layout_height="@dimen/fragment_welcome_enter_button_height"
+                    android:layout_margin="5dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:text="@string/enter"
+                    android:background="@drawable/enter_button_drawable"
+                    android:enabled="false"/>
+        </RelativeLayout>
+
+        <TextView android:id="@+id/fragment_welcome_privacy_policy_text_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:layout_marginBottom="@dimen/fragment_welcome_privacy_policy_text_view_margin_bottom"
+                  android:layout_marginTop="@dimen/fragment_welcome_privacy_policy_text_view_margin_top"
+                  android:layout_above="@+id/fragment_welcome_enter_button_relative"
+                  android:text="@string/privacy_policy"
+                  android:textColor="@android:color/white"
+                  
+                  />
+    </RelativeLayout>
+
+</RelativeLayout>

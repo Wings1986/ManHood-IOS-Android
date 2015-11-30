@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/dialog_camera_info_width"
+                android:layout_height="@dimen/dialog_camera_info_heigth"
+                android:background="@android:color/transparent">
+
+    <RelativeLayout android:id="@+id/dialog_camera_info_main_relative_layout"
+                    android:layout_width="@dimen/dialog_camera_info_width"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dialog_camera_main_layout_bg"
+                    android:layout_above="@+id/dialog_camera_info_bottom_button"
+                    android:paddingTop="28dp">
+
+        <TextView android:id="@+id/dialog_camera_info_title_text_view"
+                  android:layout_height="@dimen/dialog_camera_info_title_text_view"
+                  android:layout_width="match_parent"
+                  android:gravity="center_horizontal"
+                  android:textColor="@android:color/white"
+                  android:layout_alignParentTop="true"
+                  android:textSize="19dp"/>
+
+        <ImageView android:id="@+id/dialog_camera_info_context_image_view"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:scaleType="fitCenter"
+                   android:adjustViewBounds="true"
+                   android:paddingLeft="22dp"
+                   android:paddingRight="22dp"
+                   android:paddingBottom="10dp"
+                   android:background="@android:color/transparent"
+                   android:layout_below="@+id/dialog_camera_info_title_text_view"/>
+
+    </RelativeLayout>
+
+    <Button android:id="@+id/dialog_camera_info_bottom_button"
+            android:layout_width="@dimen/dialog_camera_info_width"
+            android:layout_height="@dimen/dialog_camera_info_bottom_button_height"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/got_it_button"/>
+
+</RelativeLayout>

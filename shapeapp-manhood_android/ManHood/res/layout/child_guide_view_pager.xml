@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/apk/res/com.VVTeam.ManHood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="37dp">
+
+    <com.VVTeam.ManHood.Widget.AutoScaleTextView
+            android:id="@+id/child_guide_view_pager_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:gravity="center_horizontal"
+            tools:minTextSize="20sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:layout_alignParentBottom="true"/>
+
+    <TextView android:id="@+id/child_guide_view_pager_title_text_view"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:gravity="center_horizontal"
+              android:textColor="@android:color/white"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_above="@+id/child_guide_view_pager_description_text_view"/>
+
+    <ImageView android:id="@+id/child_guide_view_pager_image_view"
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:scaleType="fitCenter"
+               android:paddingLeft="40dp"
+               android:paddingRight="40dp"
+               android:paddingBottom="15dp"
+               android:adjustViewBounds="true"
+               android:layout_above="@+id/child_guide_view_pager_title_text_view"
+               android:layout_centerInParent="true"
+               android:src="@drawable/guide_il_empty"/>
+
+</RelativeLayout>

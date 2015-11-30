@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="camera_screen_divider_color">#999999</color>
+    <color name="clicked_transparent_color">#77050505</color>
+    <color name="certificate_length_color">#FF3FC6F8</color>
+    <color name="certificate_thickness_color">#FF4D96E8</color>
+    <color name="certificate_thickness_at_color">#FF75E1D0</color>
+    <color name="settings_list_view_divider_color">#FF4E6570</color>
+    <color name="text_link_color">#007aff</color>
+    <color name="camera_background">#293033</color>
+</resources>

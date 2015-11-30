@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_bg" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_certificate_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_histogram_top_bar_height"
+        android:background="@android:color/transparent" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_certificate_histogram_relative_layout"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="@dimen/fragment_histogram_top_bar_height"
+            android:layout_height="@dimen/fragment_histogram_top_bar_height"
+            android:layout_alignParentLeft="true"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_chart_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_certificate_photo_relative_layout"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="@dimen/fragment_histogram_top_bar_height"
+            android:layout_height="@dimen/fragment_histogram_top_bar_height"
+            android:layout_alignParentRight="true"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_camera_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fragment_certificate_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_histogram_top_bar_height"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/fragment_certificate_photo_relative_layout"
+            android:layout_toRightOf="@+id/fragment_certificate_histogram_relative_layout"
+            android:gravity="center"
+            android:text="@string/manhood"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragment_certificate_bottom_bar"
+        android:layout_below="@+id/fragment_certificate_top_bar"
+        android:layout_marginTop="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/certificateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/certificate_bg_without_text"
+            android:paddingBottom="10dp"
+            android:paddingTop="@dimen/certificate_top_padding" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.VVTeam.ManHood.View.ETWatermarkView
+                    android:id="@+id/watermarkview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:layout_margin="10dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_length_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_length_row_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_length_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/certificate_row_length_text_view"
+                    android:layout_toRightOf="@+id/certificate_length_row_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/length"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_length_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@color/certificate_length_color"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_thickness_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_below="@+id/certificate_length_row"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_thickness_row_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_thickness_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/certificate_row_thickness_text_view"
+                    android:layout_toRightOf="@+id/certificate_thickness_row_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/thickness"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_thickness_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@color/certificate_thickness_color"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_thickest_at_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_below="@+id/certificate_thickness_row"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_thickest_at_row_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_thickest_at_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/certificate_row_thickest_at_text_view"
+                    android:layout_toRightOf="@+id/certificate_thickest_at_row_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/thickest_at"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_thickest_at_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@color/certificate_thickness_at_color"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_curvature_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_below="@+id/certificate_thickest_at_row"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_row_curvature_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_curvature_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/certificate_row_curvature_text_view"
+                    android:layout_toRightOf="@+id/certificate_row_curvature_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/curvature"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_curvature_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_date_of_issue_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_below="@+id/certificate_curvature_row"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_row_date_of_issue_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_date_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/certificate_row_date_of_issue_text_view"
+                    android:layout_toRightOf="@+id/certificate_row_date_of_issue_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/date_of_issue"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_date_of_issue_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_device_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_below="@+id/certificate_date_of_issue_row"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <ImageView
+                    android:id="@+id/certificate_row_device_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_device_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/certificate_row_device_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/device"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/certificate_row_device_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:paddingRight="4dp"
+                    android:text="@string/empty_row_value"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_above="@+id/certificate_username_row"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp" >
+
+                <com.VVTeam.ManHood.View.Histogram
+                    android:id="@+id/lengthHisto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <com.VVTeam.ManHood.View.Histogram
+                    android:id="@+id/thicknessHisto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <com.VVTeam.ManHood.View.Histogram
+                    android:id="@+id/girthHisto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/certificate_username_row"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/certificate_row_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/certificate_row_left_margin"
+                android:layout_marginRight="@dimen/certificate_row_left_margin" >
+
+                <View
+                    android:id="@+id/certificate_row_username_empty_view_before_image_view"
+                    android:layout_width="@dimen/certificate_row_username_empty_view_before_image_width"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentLeft="true" />
+
+                <ImageView
+                    android:id="@+id/certificate_row_username_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_toRightOf="@+id/certificate_row_username_empty_view_before_image_view"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_iphone_icon" />
+
+                <TextView
+                    android:id="@+id/certificate_row_username_label_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/certificate_row_username_image_view"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:text="@string/manhood"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/certificate_row_username_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_toLeftOf="@+id/certificate_row_username_empty_view_before_text_view"
+                    android:layout_toRightOf="@+id/certificate_row_username_label_text_view"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:text="username"
+                    android:textColor="@android:color/white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/certificate_row_username_empty_view_before_text_view"
+                    android:layout_width="@dimen/certificate_row_username_empty_view_before_image_width"
+                    android:layout_height="@dimen/certificate_row_height"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_certificate_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_certificate_save_to_photo_library_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_certificate_save_to_photo_library_button_relative"
+            android:layout_width="@dimen/fragment_certificate_save_to_photo_library_button_width"
+            android:layout_height="@dimen/fragment_certificate_save_to_photo_library_button_height"
+            android:layout_centerInParent="true" >
+
+            <Button
+                android:id="@+id/fragment_certificate_save_to_photo_library_button"
+                android:layout_width="@dimen/fragment_certificate_save_to_photo_library_button_width"
+                android:layout_height="@dimen/fragment_certificate_save_to_photo_library_button_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="2dp"
+                android:background="@drawable/enter_button_drawable"
+                android:text="@string/certificate_save_to_photo_library"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

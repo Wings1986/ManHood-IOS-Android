@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.VVTeam.ManHood.Widget.SlideRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/camera_guide_bg" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_generic_top_bar_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_histogram_top_bar_height"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_generic_done_relative_layout"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fragment_histogram_top_bar_height"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/fragment_generic_title_text_view" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:text="@string/done"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fragment_generic_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_histogram_top_bar_height"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/privacy_caps"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_generic_top_bar_relative_layout"
+        android:fillViewport="true"
+         >
+
+        <TextView
+            android:id="@+id/fragment_generic_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           	android:gravity="fill_horizontal"
+            android:padding="13dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</com.VVTeam.ManHood.Widget.SlideRelativeLayout>

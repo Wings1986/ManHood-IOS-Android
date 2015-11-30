@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/camera_guide_bg_for_settings_screen">
+
+    <RelativeLayout android:id="@+id/fragment_settings_top_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_histogram_top_bar_height"
+                    android:background="@android:color/transparent">
+        <RelativeLayout android:id="@+id/fragment_settings_histogram_relative_layout"
+                        android:layout_width="@dimen/fragment_histogram_top_bar_height"
+                        android:layout_height="@dimen/fragment_histogram_top_bar_height"
+                        android:layout_alignParentRight="true"
+                        style="@android:style/Widget.ActionButton"
+                        android:clickable="true">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/ic_chart_icon"
+                       android:scaleType="fitCenter"/>
+        </RelativeLayout>
+
+        <TextView android:id="@+id/fragment_settings_title_text_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/fragment_histogram_top_bar_height"
+                  android:text="@string/settings"
+                  android:textColor="@android:color/white"
+                  android:textSize="19sp"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="true"
+                  android:gravity="center"/>
+    </RelativeLayout>
+
+    <ListView android:id="@+id/fragment_settings_list_view"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:cacheColorHint="@android:color/transparent"
+              android:background="@android:color/transparent"
+              android:divider="@drawable/fragment_settings_list_view_divider"
+              android:dividerHeight="1dp"
+              android:layout_below="@+id/fragment_settings_top_bar"/>
+</RelativeLayout>

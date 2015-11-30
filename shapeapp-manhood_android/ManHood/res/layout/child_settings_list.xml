@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@android:style/Widget.ActionButton"
+                android:descendantFocusability="afterDescendants">
+
+    <TextView android:id="@+id/child_settings_list_title_text_view"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/child_settings_list_height"
+              android:gravity="center_vertical"
+              android:textSize="19sp"
+              android:layout_alignParentLeft="true"
+              android:layout_marginRight="57dp"
+              android:textColor="@android:color/white"/>
+
+    <RelativeLayout android:id="@+id/child_settings_list_setting_value_relative_layout"
+                    android:layout_width="57dp"
+                    android:layout_height="@dimen/child_settings_list_height"
+                    android:layout_alignParentRight="true">
+
+        <Switch android:id="@+id/child_settings_list_switch_view"
+                android:layout_width="57dp"
+                android:layout_height="@dimen/child_settings_list_height"
+                android:visibility="gone"
+                android:gravity="center"
+                android:switchMinWidth="15dp"/>
+
+        <TextView android:id="@+id/child_settings_list_setting_text_view"
+                  android:layout_width="57dp"
+                  android:layout_height="@dimen/child_settings_list_height"
+                  android:gravity="center_vertical|right"
+                  android:textSize="19sp"
+                  android:textColor="@android:color/white"
+                  android:visibility="gone"/>
+
+        <ImageView android:id="@+id/child_settings_list_arrow_image_view"
+                   android:layout_width="20dp"
+                   android:layout_height="@dimen/child_settings_list_height"
+                   android:src="@drawable/settings_arrow"
+                   android:layout_alignParentRight="true"
+                   android:visibility="gone"
+                   android:scaleType="center"
+                   android:adjustViewBounds="true"
+                   android:paddingBottom="20dp"
+                   android:paddingTop="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
